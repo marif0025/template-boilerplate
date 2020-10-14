@@ -1,17 +1,23 @@
 {
-  "name": "template",
+  "name": "starter-template",
   "version": "1.0.0",
+  "description": "starter-template",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --config webpack.config.js",
-    "build": "webpack --mode production --config webpack.config.js"
+    "build": "webpack --env.mode production",
+    "dev": "webpack-dev-server --env.mode development"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Muhammad Arif",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  },
-  "description": ""
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
