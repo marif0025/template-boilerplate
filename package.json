@@ -4,7 +4,7 @@
   "description": "starter-template",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --env mode=development",
+    "start": "webpack serve --env mode=development",
     "build": "webpack --env mode=production"
   },
   "repository": {
